@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Users\erick\AppData\Local\TempReleases\Snapshot\2\5V UPS.CMPcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance_BAT2|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Clearance_BAT1|Scope=Board|Minimum=20.00

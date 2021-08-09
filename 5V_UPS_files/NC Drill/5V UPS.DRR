@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: 5V UPS.CMPcbDoc   2021-07-14  8:09:34 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : 5V UPS-RoundHoles.TXT
+ASCII SlotHoles File : 5V UPS-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             6         PTH        0.22inch (5.50mm)
+T2      15mil (0.381mm)                                           Round             38        PTH        8.95inch (227.35mm)
+T3      24mil (0.6mm)                                             Slot              8         PTH        8.31inch (211.12mm)
+T4      67mil (1.7mm)                                             Round             4         PTH        6.47inch (164.30mm)
+T5      126mil (3.2mm)                                            Round             4         PTH        5.14inch (130.54mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              60
+
+Total Processing Time (hh:mm:ss) : 00:00:00

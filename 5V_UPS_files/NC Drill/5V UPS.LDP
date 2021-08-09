@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\erick\AppData\Local\TempReleases\Snapshot\2\5V UPS.CMPcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=5v ups-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=5v ups-slotholes.txt|DrillLayers=gtl,gbl

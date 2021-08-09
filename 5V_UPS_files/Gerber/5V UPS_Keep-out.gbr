@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,Altium Limited,CircuitMaker,2.0.2 (2.0.2.40)*%
+G04 Layer_Color=16720538*
+%FSLAX25Y25*%
+%MOIN*%
+%TF.SameCoordinates,4CCF3E00-E941-4990-BDAE-273065C54DFB*%
+%TF.FilePolarity,Positive*%
+%TF.FileFunction,Keep-out,Top*%
+%TF.Part,Single*%
+G01*
+G75*
+%TA.AperFunction,NonConductor*%
+%ADD51C,0.01000*%
+D51*
+X406000Y100000D02*
+Y258000D01*
+X100000D02*
+X406000D01*
+X100000Y100000D02*
+Y258000D01*
+Y100000D02*
+X406000D01*
+%TF.MD5,2cd91b48cc0c0bb555fc104dde844bc6*%
+M02*
