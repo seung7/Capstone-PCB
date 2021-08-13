@@ -20,8 +20,19 @@ Our Capstone Project MUP(Monitoring Unoccupied Property) should be able to work 
 3. PCB should use USB-C as both input and output
 
 ## Open Source 
-We have found the Open Source PCB that satisfy our Requirements:
+We have found the Open Source PCB created by CRAIG PEACOCK, which satisfies our requirements:
 https://workspace.circuitmaker.com/Projects/Details/Craig-Peacock-4/5V-Uninterruptable-Power-Supply-USB#sectionTeam
+
+## Modification
+1. Change of R1. 
+
+We need the total input current to be 3.5A so that when the AC adaptor is pluged, MUP can draw a full 2.5A while the remaining 1A will be used to charge the battery at the same time. The current of the circuit can be altered by R1. By modifying R1 from 0.01ohm to 0.007ohm, the circuit can provide 0.025v/0.007 = 3.5A rather than 0.025v/0.01 = 2.5A.
+
+2. Bigger battery pack.
+
+The original design uses two 18650 batteries, that gives 4400mAh. That would only last for 4400mAh/2330mA = 1.8 hours. However our MUP should be ready for power outrages more than 6 hours. For that reason we have purchased 28000mAh customized battery pack providing 28000mAh/2330mA = 12 hours. To establish the connection, the battery's wires connected to its terminals are soldered into the PCB like the image below:
+
+
 
 ## Result
 Our Raspberry Pi did not lose the power when we turn off the AC power outlet swtich. Our PCB successfully switches the power from the wall outlet to the battery pack.
