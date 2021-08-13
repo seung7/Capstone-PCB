@@ -31,7 +31,9 @@ We need the total input current to be 3.5A so that when the AC adaptor is pluged
 2. Bigger battery pack.
 
 The original design uses two 18650 batteries, that gives 4400mAh. That would only last for 4400mAh/2330mA = 1.8 hours. However our MUP should be ready for power outrages more than 6 hours. For that reason we have purchased 28000mAh customized battery pack providing 28000mAh/2330mA = 12 hours. To establish the connection, the battery's wires connected to its terminals are soldered into the PCB like the image below:
-
+<p align="center">
+   <img src="Video_and_Images/PMS_image.jpg">
+</p>
 
 
 ## Result
