@@ -23,3 +23,9 @@ Our Capstone Project MUP(Monitoring Unoccupied Property) should be able to work 
 We have found the Open Source PCB that satisfy our Requirements:
 https://workspace.circuitmaker.com/Projects/Details/Craig-Peacock-4/5V-Uninterruptable-Power-Supply-USB#sectionTeam
 
+## Result
+Our Raspberry Pi did not lose the power when we turn off the AC power outlet swtich. Our PCB successfully switches the power from the wall outlet to the battery pack.
+
+<p align="center">
+   <img src="Video_and_Images/PMS_Animated_GIF.gif">
+</p>
