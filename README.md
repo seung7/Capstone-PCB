@@ -35,6 +35,12 @@ The original design uses two 18650 batteries, that gives 4400mAh. That would onl
    <img src="Video_and_Images/PMS_image.jpg" width="400" >
 </p>
 
+## Procedure
+The PCB was designed through PCBWAY https://www.pcbway.com/
+
+The components were ordered from digikey https://www.digikey.ca/, mouser https://www.mouser.ca/, newark https://canada.newark.com/
+
+PCBWAY not only make PCB but also provide assembly service. However, due to the time limit of the project, we ordered all the components and send the assembly order to the local company. We have contacted Maxtech and was able to get a PCB assembled within a week.
 
 ## Result
 Our Raspberry Pi did not lose the power when we turn off the AC power outlet swtich. Our PCB successfully switches the power from the wall outlet to the battery pack.
