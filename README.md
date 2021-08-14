@@ -33,13 +33,12 @@ We need the total input current to be 3.5A so that when the AC adaptor is pluged
 The original design uses two 18650 batteries, that gives 4400mAh. That would only last for 4400mAh/2330mA = 1.8 hours. However our MUP should be ready for power outrages more than 6 hours. For that reason we have purchased 28000mAh customized battery pack providing 28000mAh/2330mA = 12 hours. To establish the connection, the battery's wires connected to its terminals are soldered into the PCB like the image below:
 
 ## Simulation
-CRAIG PEACOCK uses LTC4040 for the power management but, but LTSpice does not have the exact model. So we have tested with LTC4412 which also used as UPS. 
-Using DC sweep, the wall power is dropped from 5v to 0v in the simulation, and the current for the wall power and the battery are measured. 
+LTC4040 was used by CRAIGPEACOCK for the power management but, but LTSpice does not have the exact model. So we have tested with LTC4412 which also used for UPS. 
+Using the DC sweep, the wall power is dropped from 5v to 0v in the simulation, and currents for the wall power and the battery are measured. 
 <p align="center">
-   <img src="Video_and_Images/LTC4412 Simulation.png" width=400>
+   <img src="Video_and_Images/LTC4412 Simulation.png" width=800>
 </p>
-As soon as the current from the wall dropped, the current in the battery has raised. So simulation was successful.
-
+As soon as the current from the wall dropped, the current in the battery raised. So the simulation was successful. 
 
 ## Procedure
 The PCB was designed through PCBWAY https://www.pcbway.com/
